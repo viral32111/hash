@@ -1,0 +1,1644 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{89AF369E-F58E-B539-FEA6-40106A051C9B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\GarrysMod">
+      <UniqueIdentifier>{D034C903-3C4B-C799-85C2-52BBF1179821}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\GarrysMod\Lua">
+      <UniqueIdentifier>{6135127C-CDA1-CD76-9695-65D402C1EFDE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Libgcrypt">
+      <UniqueIdentifier>{C8996BC1-34B0-6957-7D27-F578E97C3ADF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Libgcrypt\build-aux">
+      <UniqueIdentifier>{C2A05241-2EAE-8027-B794-7C1223A14CDE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Libgcrypt\cipher">
+      <UniqueIdentifier>{B2E53E97-9E0A-8E17-C755-73A7B3D98C35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Libgcrypt\compat">
+      <UniqueIdentifier>{1BF5A997-071A-F917-3065-DEA71CE9F735}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Libgcrypt\doc">
+      <UniqueIdentifier>{ADBBCE5D-1928-8A58-E21B-22B64E47ACC0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Libgcrypt\m4">
+      <UniqueIdentifier>{F87ADF21-E409-69EB-8D28-7DE679967991}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Libgcrypt\mpi">
+      <UniqueIdentifier>{1DE2CE5D-894E-8A58-5242-22B6BE6DACC0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Libgcrypt\mpi\aarch64">
+      <UniqueIdentifier>{15231CCF-813B-03F9-4AE8-9292B6BF9792}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Libgcrypt\mpi\alpha">
+      <UniqueIdentifier>{72250417-DE32-32FD-6719-2EE8D325FEB3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Libgcrypt\mpi\amd64">
+      <UniqueIdentifier>{28780417-9485-32FD-1D6C-2EE88978FEB3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Libgcrypt\mpi\arm">
+      <UniqueIdentifier>{2C1A9890-98DC-CB1A-E18C-5AA74D8EA4F8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Libgcrypt\mpi\generic">
+      <UniqueIdentifier>{291A07A6-9532-EECF-5EDF-7D69CAB68269}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Libgcrypt\mpi\hppa">
+      <UniqueIdentifier>{952E9FA3-813E-4B74-EAF7-AF92D6263A0D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Libgcrypt\mpi\hppa1.1">
+      <UniqueIdentifier>{05F9CA0C-7111-B236-3ABE-41D0A69546D0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Libgcrypt\mpi\i386">
+      <UniqueIdentifier>{16B09EA3-02C0-4A74-6B79-AF9257A8390D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Libgcrypt\mpi\i586">
+      <UniqueIdentifier>{98B89EA3-84C8-4A74-ED81-AF92D9B0390D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Libgcrypt\mpi\m68k">
+      <UniqueIdentifier>{92EEA0A3-7EFE-4C74-E7B7-B192D3E63B0D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Libgcrypt\mpi\m68k\mc68020">
+      <UniqueIdentifier>{91BD2875-7DF9-2BDF-E60B-44D6D266D4F9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Libgcrypt\mpi\mips3">
+      <UniqueIdentifier>{98A7DB17-04B5-09FE-8D9B-05E9F9A7D5B4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Libgcrypt\mpi\pa7100">
+      <UniqueIdentifier>{E5F59E19-D1B0-8EC5-7A68-07106602D955}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Libgcrypt\mpi\pentium4">
+      <UniqueIdentifier>{E28F45B6-CEB5-0F1D-B7FB-94E8A3C034E9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Libgcrypt\mpi\pentium4\mmx">
+      <UniqueIdentifier>{E3548A7C-CF90-8DE6-38A3-A5DD24FE3501}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Libgcrypt\mpi\pentium4\sse2">
+      <UniqueIdentifier>{CE52D80D-3A0C-43B8-C36B-5D922F24F927}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Libgcrypt\mpi\power">
+      <UniqueIdentifier>{99571518-0565-43FE-8E4B-3FE9FA570FB5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Libgcrypt\mpi\powerpc32">
+      <UniqueIdentifier>{7192F84B-DD75-078C-E678-35C852DBCDDC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Libgcrypt\mpi\powerpc64">
+      <UniqueIdentifier>{D692F84B-4276-078C-4B79-35C8B7DBCDDC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Libgcrypt\mpi\sparc32">
+      <UniqueIdentifier>{8A4D865A-F665-6D84-BF12-FD1D2BEA011E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Libgcrypt\mpi\sparc32v8">
+      <UniqueIdentifier>{78E74F15-E4CA-5E55-EDCD-8C91593025A6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Libgcrypt\mpi\supersparc">
+      <UniqueIdentifier>{949E861C-80EF-715E-A953-6020950305C8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Libgcrypt\random">
+      <UniqueIdentifier>{985AAAB9-847F-F939-ADCA-DEC9994EF857}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Libgcrypt\src">
+      <UniqueIdentifier>{DFFBCE5D-4B68-8A58-145C-22B68087ACC0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Libgcrypt\tests">
+      <UniqueIdentifier>{AABA880D-16F2-D0A4-1FFC-34C88BB2F79D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{76FF3A1C-62A1-65F2-4B5C-7946379DEC42}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\GarrysMod\Lua\Interface.h">
+      <Filter>include\GarrysMod\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\GarrysMod\Lua\LuaBase.h">
+      <Filter>include\GarrysMod\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\GarrysMod\Lua\SourceCompat.h">
+      <Filter>include\GarrysMod\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\GarrysMod\Lua\Types.h">
+      <Filter>include\GarrysMod\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\GarrysMod\Lua\UserData.h">
+      <Filter>include\GarrysMod\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Libgcrypt\cipher\bithelp.h">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Libgcrypt\cipher\bufhelp.h">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Libgcrypt\cipher\camellia.h">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Libgcrypt\cipher\cipher-internal.h">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Libgcrypt\cipher\cipher-selftest.h">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Libgcrypt\cipher\ecc-common.h">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Libgcrypt\cipher\gost.h">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Libgcrypt\cipher\hash-common.h">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Libgcrypt\cipher\kdf-internal.h">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Libgcrypt\cipher\keccak_permute_32.h">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Libgcrypt\cipher\keccak_permute_64.h">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Libgcrypt\cipher\mac-internal.h">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Libgcrypt\cipher\poly1305-internal.h">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Libgcrypt\cipher\pubkey-internal.h">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Libgcrypt\cipher\rijndael-internal.h">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Libgcrypt\cipher\rijndael-tables.h">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Libgcrypt\cipher\sha1.h">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Libgcrypt\compat\libcompat.h">
+      <Filter>include\Libgcrypt\compat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Libgcrypt\mpi\aarch64\mpi-asm-defs.h">
+      <Filter>include\Libgcrypt\mpi\aarch64</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Libgcrypt\mpi\amd64\func_abi.h">
+      <Filter>include\Libgcrypt\mpi\amd64</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Libgcrypt\mpi\amd64\mpi-asm-defs.h">
+      <Filter>include\Libgcrypt\mpi\amd64</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Libgcrypt\mpi\arm\mpi-asm-defs.h">
+      <Filter>include\Libgcrypt\mpi\arm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Libgcrypt\mpi\ec-internal.h">
+      <Filter>include\Libgcrypt\mpi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Libgcrypt\mpi\generic\mpi-asm-defs.h">
+      <Filter>include\Libgcrypt\mpi\generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Libgcrypt\mpi\i386\syntax.h">
+      <Filter>include\Libgcrypt\mpi\i386</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Libgcrypt\mpi\longlong.h">
+      <Filter>include\Libgcrypt\mpi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Libgcrypt\mpi\m68k\syntax.h">
+      <Filter>include\Libgcrypt\mpi\m68k</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Libgcrypt\mpi\mips3\mpi-asm-defs.h">
+      <Filter>include\Libgcrypt\mpi\mips3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Libgcrypt\mpi\mpi-inline.h">
+      <Filter>include\Libgcrypt\mpi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Libgcrypt\mpi\mpi-internal.h">
+      <Filter>include\Libgcrypt\mpi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Libgcrypt\mpi\powerpc32\syntax.h">
+      <Filter>include\Libgcrypt\mpi\powerpc32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Libgcrypt\random\jitterentropy-base-user.h">
+      <Filter>include\Libgcrypt\random</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Libgcrypt\random\jitterentropy.h">
+      <Filter>include\Libgcrypt\random</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Libgcrypt\random\rand-internal.h">
+      <Filter>include\Libgcrypt\random</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Libgcrypt\random\random.h">
+      <Filter>include\Libgcrypt\random</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Libgcrypt\src\cipher-proto.h">
+      <Filter>include\Libgcrypt\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Libgcrypt\src\cipher.h">
+      <Filter>include\Libgcrypt\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Libgcrypt\src\context.h">
+      <Filter>include\Libgcrypt\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Libgcrypt\src\ec-context.h">
+      <Filter>include\Libgcrypt\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Libgcrypt\src\g10lib.h">
+      <Filter>include\Libgcrypt\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Libgcrypt\src\gcrypt-int.h">
+      <Filter>include\Libgcrypt\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Libgcrypt\src\gcrypt-testapi.h">
+      <Filter>include\Libgcrypt\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Libgcrypt\src\hmac256.h">
+      <Filter>include\Libgcrypt\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Libgcrypt\src\hwf-common.h">
+      <Filter>include\Libgcrypt\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Libgcrypt\src\mpi.h">
+      <Filter>include\Libgcrypt\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Libgcrypt\src\secmem.h">
+      <Filter>include\Libgcrypt\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Libgcrypt\src\stdmem.h">
+      <Filter>include\Libgcrypt\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Libgcrypt\src\types.h">
+      <Filter>include\Libgcrypt\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Libgcrypt\src\visibility.h">
+      <Filter>include\Libgcrypt\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Libgcrypt\tests\blake2b.h">
+      <Filter>include\Libgcrypt\tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Libgcrypt\tests\blake2s.h">
+      <Filter>include\Libgcrypt\tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Libgcrypt\tests\pkcs1v2-oaep.h">
+      <Filter>include\Libgcrypt\tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Libgcrypt\tests\pkcs1v2-pss.h">
+      <Filter>include\Libgcrypt\tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Libgcrypt\tests\pkcs1v2-v15c.h">
+      <Filter>include\Libgcrypt\tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Libgcrypt\tests\pkcs1v2-v15s.h">
+      <Filter>include\Libgcrypt\tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Libgcrypt\tests\sha3-224.h">
+      <Filter>include\Libgcrypt\tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Libgcrypt\tests\sha3-256.h">
+      <Filter>include\Libgcrypt\tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Libgcrypt\tests\sha3-384.h">
+      <Filter>include\Libgcrypt\tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Libgcrypt\tests\sha3-512.h">
+      <Filter>include\Libgcrypt\tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Libgcrypt\tests\stopwatch.h">
+      <Filter>include\Libgcrypt\tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Libgcrypt\tests\t-common.h">
+      <Filter>include\Libgcrypt\tests</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\include\Libgcrypt\cipher\arcfour-amd64.S">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\arcfour.c">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\blake2.c">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\blowfish-amd64.S">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\blowfish-arm.S">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\blowfish.c">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\camellia-aarch64.S">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\camellia-aesni-avx-amd64.S">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\camellia-aesni-avx2-amd64.S">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\camellia-arm.S">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\camellia-glue.c">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\camellia.c">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\cast5-amd64.S">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\cast5-arm.S">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\cast5.c">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\chacha20-armv7-neon.S">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\chacha20-avx2-amd64.S">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\chacha20-sse2-amd64.S">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\chacha20-ssse3-amd64.S">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\chacha20.c">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\cipher-aeswrap.c">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\cipher-cbc.c">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\cipher-ccm.c">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\cipher-cfb.c">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\cipher-cmac.c">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\cipher-ctr.c">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\cipher-gcm-armv8-aarch32-ce.S">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\cipher-gcm-armv8-aarch64-ce.S">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\cipher-gcm-intel-pclmul.c">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\cipher-gcm.c">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\cipher-ocb.c">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\cipher-ofb.c">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\cipher-poly1305.c">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\cipher-selftest.c">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\cipher-xts.c">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\cipher.c">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\crc-intel-pclmul.c">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\crc.c">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\des-amd64.S">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\des.c">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\dsa-common.c">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\dsa.c">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\ecc-curves.c">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\ecc-ecdsa.c">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\ecc-eddsa.c">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\ecc-gost.c">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\ecc-misc.c">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\ecc.c">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\elgamal.c">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\gost-s-box.c">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\gost28147.c">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\gostr3411-94.c">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\hash-common.c">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\hmac-tests.c">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\idea.c">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\kdf.c">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\keccak-armv7-neon.S">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\keccak.c">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\mac-cmac.c">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\mac-gmac.c">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\mac-hmac.c">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\mac-poly1305.c">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\mac.c">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\md.c">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\md4.c">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\md5.c">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\poly1305-armv7-neon.S">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\poly1305-avx2-amd64.S">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\poly1305-sse2-amd64.S">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\poly1305.c">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\primegen.c">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\pubkey-util.c">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\pubkey.c">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\rfc2268.c">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\rijndael-aarch64.S">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\rijndael-aesni.c">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\rijndael-amd64.S">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\rijndael-arm.S">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\rijndael-armv8-aarch32-ce.S">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\rijndael-armv8-aarch64-ce.S">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\rijndael-armv8-ce.c">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\rijndael-padlock.c">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\rijndael-ssse3-amd64-asm.S">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\rijndael-ssse3-amd64.c">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\rijndael.c">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\rmd160.c">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\rsa-common.c">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\rsa.c">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\salsa20-amd64.S">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\salsa20-armv7-neon.S">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\salsa20.c">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\scrypt.c">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\seed.c">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\serpent-armv7-neon.S">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\serpent-avx2-amd64.S">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\serpent-sse2-amd64.S">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\serpent.c">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\sha1-armv7-neon.S">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\sha1-armv8-aarch32-ce.S">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\sha1-armv8-aarch64-ce.S">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\sha1-avx-amd64.S">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\sha1-avx-bmi2-amd64.S">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\sha1-ssse3-amd64.S">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\sha1.c">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\sha256-armv8-aarch32-ce.S">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\sha256-armv8-aarch64-ce.S">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\sha256-avx-amd64.S">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\sha256-avx2-bmi2-amd64.S">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\sha256-ssse3-amd64.S">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\sha256.c">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\sha512-arm.S">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\sha512-armv7-neon.S">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\sha512-avx-amd64.S">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\sha512-avx2-bmi2-amd64.S">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\sha512-ssse3-amd64.S">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\sha512.c">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\stribog.c">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\tiger.c">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\twofish-aarch64.S">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\twofish-amd64.S">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\twofish-arm.S">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\twofish-avx2-amd64.S">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\twofish.c">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\whirlpool-sse2-amd64.S">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\cipher\whirlpool.c">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\compat\clock.c">
+      <Filter>include\Libgcrypt\compat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\compat\compat.c">
+      <Filter>include\Libgcrypt\compat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\compat\getpid.c">
+      <Filter>include\Libgcrypt\compat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\doc\yat2m.c">
+      <Filter>include\Libgcrypt\doc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\aarch64\mpih-add1.S">
+      <Filter>include\Libgcrypt\mpi\aarch64</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\aarch64\mpih-mul1.S">
+      <Filter>include\Libgcrypt\mpi\aarch64</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\aarch64\mpih-mul2.S">
+      <Filter>include\Libgcrypt\mpi\aarch64</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\aarch64\mpih-mul3.S">
+      <Filter>include\Libgcrypt\mpi\aarch64</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\aarch64\mpih-sub1.S">
+      <Filter>include\Libgcrypt\mpi\aarch64</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\alpha\mpih-add1.S">
+      <Filter>include\Libgcrypt\mpi\alpha</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\alpha\mpih-lshift.S">
+      <Filter>include\Libgcrypt\mpi\alpha</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\alpha\mpih-mul1.S">
+      <Filter>include\Libgcrypt\mpi\alpha</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\alpha\mpih-mul2.S">
+      <Filter>include\Libgcrypt\mpi\alpha</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\alpha\mpih-mul3.S">
+      <Filter>include\Libgcrypt\mpi\alpha</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\alpha\mpih-rshift.S">
+      <Filter>include\Libgcrypt\mpi\alpha</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\alpha\mpih-sub1.S">
+      <Filter>include\Libgcrypt\mpi\alpha</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\alpha\udiv-qrnnd.S">
+      <Filter>include\Libgcrypt\mpi\alpha</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\amd64\mpih-add1.S">
+      <Filter>include\Libgcrypt\mpi\amd64</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\amd64\mpih-lshift.S">
+      <Filter>include\Libgcrypt\mpi\amd64</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\amd64\mpih-mul1.S">
+      <Filter>include\Libgcrypt\mpi\amd64</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\amd64\mpih-mul2.S">
+      <Filter>include\Libgcrypt\mpi\amd64</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\amd64\mpih-mul3.S">
+      <Filter>include\Libgcrypt\mpi\amd64</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\amd64\mpih-rshift.S">
+      <Filter>include\Libgcrypt\mpi\amd64</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\amd64\mpih-sub1.S">
+      <Filter>include\Libgcrypt\mpi\amd64</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\arm\mpih-add1.S">
+      <Filter>include\Libgcrypt\mpi\arm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\arm\mpih-mul1.S">
+      <Filter>include\Libgcrypt\mpi\arm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\arm\mpih-mul2.S">
+      <Filter>include\Libgcrypt\mpi\arm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\arm\mpih-mul3.S">
+      <Filter>include\Libgcrypt\mpi\arm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\arm\mpih-sub1.S">
+      <Filter>include\Libgcrypt\mpi\arm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\ec-ed25519.c">
+      <Filter>include\Libgcrypt\mpi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\ec.c">
+      <Filter>include\Libgcrypt\mpi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\generic\mpih-add1.c">
+      <Filter>include\Libgcrypt\mpi\generic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\generic\mpih-lshift.c">
+      <Filter>include\Libgcrypt\mpi\generic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\generic\mpih-mul1.c">
+      <Filter>include\Libgcrypt\mpi\generic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\generic\mpih-mul2.c">
+      <Filter>include\Libgcrypt\mpi\generic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\generic\mpih-mul3.c">
+      <Filter>include\Libgcrypt\mpi\generic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\generic\mpih-rshift.c">
+      <Filter>include\Libgcrypt\mpi\generic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\generic\mpih-sub1.c">
+      <Filter>include\Libgcrypt\mpi\generic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\generic\udiv-w-sdiv.c">
+      <Filter>include\Libgcrypt\mpi\generic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\hppa\mpih-add1.S">
+      <Filter>include\Libgcrypt\mpi\hppa</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\hppa\mpih-lshift.S">
+      <Filter>include\Libgcrypt\mpi\hppa</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\hppa\mpih-rshift.S">
+      <Filter>include\Libgcrypt\mpi\hppa</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\hppa\mpih-sub1.S">
+      <Filter>include\Libgcrypt\mpi\hppa</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\hppa\udiv-qrnnd.S">
+      <Filter>include\Libgcrypt\mpi\hppa</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\hppa1.1\mpih-mul1.S">
+      <Filter>include\Libgcrypt\mpi\hppa1.1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\hppa1.1\mpih-mul2.S">
+      <Filter>include\Libgcrypt\mpi\hppa1.1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\hppa1.1\mpih-mul3.S">
+      <Filter>include\Libgcrypt\mpi\hppa1.1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\hppa1.1\udiv-qrnnd.S">
+      <Filter>include\Libgcrypt\mpi\hppa1.1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\i386\mpih-add1.S">
+      <Filter>include\Libgcrypt\mpi\i386</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\i386\mpih-lshift.S">
+      <Filter>include\Libgcrypt\mpi\i386</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\i386\mpih-mul1.S">
+      <Filter>include\Libgcrypt\mpi\i386</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\i386\mpih-mul2.S">
+      <Filter>include\Libgcrypt\mpi\i386</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\i386\mpih-mul3.S">
+      <Filter>include\Libgcrypt\mpi\i386</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\i386\mpih-rshift.S">
+      <Filter>include\Libgcrypt\mpi\i386</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\i386\mpih-sub1.S">
+      <Filter>include\Libgcrypt\mpi\i386</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\i586\mpih-add1.S">
+      <Filter>include\Libgcrypt\mpi\i586</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\i586\mpih-lshift.S">
+      <Filter>include\Libgcrypt\mpi\i586</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\i586\mpih-mul1.S">
+      <Filter>include\Libgcrypt\mpi\i586</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\i586\mpih-mul2.S">
+      <Filter>include\Libgcrypt\mpi\i586</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\i586\mpih-mul3.S">
+      <Filter>include\Libgcrypt\mpi\i586</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\i586\mpih-rshift.S">
+      <Filter>include\Libgcrypt\mpi\i586</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\i586\mpih-sub1.S">
+      <Filter>include\Libgcrypt\mpi\i586</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\m68k\mc68020\mpih-mul1.S">
+      <Filter>include\Libgcrypt\mpi\m68k\mc68020</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\m68k\mc68020\mpih-mul2.S">
+      <Filter>include\Libgcrypt\mpi\m68k\mc68020</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\m68k\mc68020\mpih-mul3.S">
+      <Filter>include\Libgcrypt\mpi\m68k\mc68020</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\m68k\mpih-add1.S">
+      <Filter>include\Libgcrypt\mpi\m68k</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\m68k\mpih-lshift.S">
+      <Filter>include\Libgcrypt\mpi\m68k</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\m68k\mpih-rshift.S">
+      <Filter>include\Libgcrypt\mpi\m68k</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\m68k\mpih-sub1.S">
+      <Filter>include\Libgcrypt\mpi\m68k</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\mips3\mpih-add1.S">
+      <Filter>include\Libgcrypt\mpi\mips3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\mips3\mpih-lshift.S">
+      <Filter>include\Libgcrypt\mpi\mips3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\mips3\mpih-mul1.S">
+      <Filter>include\Libgcrypt\mpi\mips3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\mips3\mpih-mul2.S">
+      <Filter>include\Libgcrypt\mpi\mips3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\mips3\mpih-mul3.S">
+      <Filter>include\Libgcrypt\mpi\mips3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\mips3\mpih-rshift.S">
+      <Filter>include\Libgcrypt\mpi\mips3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\mips3\mpih-sub1.S">
+      <Filter>include\Libgcrypt\mpi\mips3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\mpi-add.c">
+      <Filter>include\Libgcrypt\mpi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\mpi-bit.c">
+      <Filter>include\Libgcrypt\mpi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\mpi-cmp.c">
+      <Filter>include\Libgcrypt\mpi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\mpi-div.c">
+      <Filter>include\Libgcrypt\mpi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\mpi-gcd.c">
+      <Filter>include\Libgcrypt\mpi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\mpi-inline.c">
+      <Filter>include\Libgcrypt\mpi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\mpi-inv.c">
+      <Filter>include\Libgcrypt\mpi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\mpi-mod.c">
+      <Filter>include\Libgcrypt\mpi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\mpi-mpow.c">
+      <Filter>include\Libgcrypt\mpi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\mpi-mul.c">
+      <Filter>include\Libgcrypt\mpi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\mpi-pow.c">
+      <Filter>include\Libgcrypt\mpi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\mpi-scan.c">
+      <Filter>include\Libgcrypt\mpi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\mpicoder.c">
+      <Filter>include\Libgcrypt\mpi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\mpih-div.c">
+      <Filter>include\Libgcrypt\mpi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\mpih-mul.c">
+      <Filter>include\Libgcrypt\mpi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\mpiutil.c">
+      <Filter>include\Libgcrypt\mpi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\pa7100\mpih-lshift.S">
+      <Filter>include\Libgcrypt\mpi\pa7100</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\pa7100\mpih-rshift.S">
+      <Filter>include\Libgcrypt\mpi\pa7100</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\pentium4\mmx\mpih-lshift.S">
+      <Filter>include\Libgcrypt\mpi\pentium4\mmx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\pentium4\mmx\mpih-rshift.S">
+      <Filter>include\Libgcrypt\mpi\pentium4\mmx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\pentium4\sse2\mpih-add1.S">
+      <Filter>include\Libgcrypt\mpi\pentium4\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\pentium4\sse2\mpih-mul1.S">
+      <Filter>include\Libgcrypt\mpi\pentium4\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\pentium4\sse2\mpih-mul2.S">
+      <Filter>include\Libgcrypt\mpi\pentium4\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\pentium4\sse2\mpih-mul3.S">
+      <Filter>include\Libgcrypt\mpi\pentium4\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\pentium4\sse2\mpih-sub1.S">
+      <Filter>include\Libgcrypt\mpi\pentium4\sse2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\power\mpih-add1.S">
+      <Filter>include\Libgcrypt\mpi\power</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\power\mpih-lshift.S">
+      <Filter>include\Libgcrypt\mpi\power</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\power\mpih-mul1.S">
+      <Filter>include\Libgcrypt\mpi\power</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\power\mpih-mul2.S">
+      <Filter>include\Libgcrypt\mpi\power</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\power\mpih-mul3.S">
+      <Filter>include\Libgcrypt\mpi\power</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\power\mpih-rshift.S">
+      <Filter>include\Libgcrypt\mpi\power</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\power\mpih-sub1.S">
+      <Filter>include\Libgcrypt\mpi\power</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\powerpc32\mpih-add1.S">
+      <Filter>include\Libgcrypt\mpi\powerpc32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\powerpc32\mpih-lshift.S">
+      <Filter>include\Libgcrypt\mpi\powerpc32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\powerpc32\mpih-mul1.S">
+      <Filter>include\Libgcrypt\mpi\powerpc32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\powerpc32\mpih-mul2.S">
+      <Filter>include\Libgcrypt\mpi\powerpc32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\powerpc32\mpih-mul3.S">
+      <Filter>include\Libgcrypt\mpi\powerpc32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\powerpc32\mpih-rshift.S">
+      <Filter>include\Libgcrypt\mpi\powerpc32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\powerpc32\mpih-sub1.S">
+      <Filter>include\Libgcrypt\mpi\powerpc32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\sparc32\mpih-add1.S">
+      <Filter>include\Libgcrypt\mpi\sparc32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\sparc32\mpih-lshift.S">
+      <Filter>include\Libgcrypt\mpi\sparc32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\sparc32\mpih-rshift.S">
+      <Filter>include\Libgcrypt\mpi\sparc32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\sparc32\udiv.S">
+      <Filter>include\Libgcrypt\mpi\sparc32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\sparc32v8\mpih-mul1.S">
+      <Filter>include\Libgcrypt\mpi\sparc32v8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\sparc32v8\mpih-mul2.S">
+      <Filter>include\Libgcrypt\mpi\sparc32v8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\sparc32v8\mpih-mul3.S">
+      <Filter>include\Libgcrypt\mpi\sparc32v8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\mpi\supersparc\udiv.S">
+      <Filter>include\Libgcrypt\mpi\supersparc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\random\jitterentropy-base.c">
+      <Filter>include\Libgcrypt\random</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\random\random-csprng.c">
+      <Filter>include\Libgcrypt\random</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\random\random-daemon.c">
+      <Filter>include\Libgcrypt\random</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\random\random-drbg.c">
+      <Filter>include\Libgcrypt\random</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\random\random-system.c">
+      <Filter>include\Libgcrypt\random</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\random\random.c">
+      <Filter>include\Libgcrypt\random</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\random\rndegd.c">
+      <Filter>include\Libgcrypt\random</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\random\rndhw.c">
+      <Filter>include\Libgcrypt\random</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\random\rndjent.c">
+      <Filter>include\Libgcrypt\random</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\random\rndlinux.c">
+      <Filter>include\Libgcrypt\random</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\random\rndunix.c">
+      <Filter>include\Libgcrypt\random</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\random\rndw32.c">
+      <Filter>include\Libgcrypt\random</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\random\rndw32ce.c">
+      <Filter>include\Libgcrypt\random</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\src\context.c">
+      <Filter>include\Libgcrypt\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\src\dumpsexp.c">
+      <Filter>include\Libgcrypt\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\src\fips.c">
+      <Filter>include\Libgcrypt\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\src\gcryptrnd.c">
+      <Filter>include\Libgcrypt\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\src\getrandom.c">
+      <Filter>include\Libgcrypt\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\src\global.c">
+      <Filter>include\Libgcrypt\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\src\hmac256.c">
+      <Filter>include\Libgcrypt\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\src\hwf-arm.c">
+      <Filter>include\Libgcrypt\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\src\hwf-x86.c">
+      <Filter>include\Libgcrypt\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\src\hwfeatures.c">
+      <Filter>include\Libgcrypt\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\src\misc.c">
+      <Filter>include\Libgcrypt\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\src\missing-string.c">
+      <Filter>include\Libgcrypt\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\src\mpicalc.c">
+      <Filter>include\Libgcrypt\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\src\secmem.c">
+      <Filter>include\Libgcrypt\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\src\sexp.c">
+      <Filter>include\Libgcrypt\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\src\stdmem.c">
+      <Filter>include\Libgcrypt\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\src\visibility.c">
+      <Filter>include\Libgcrypt\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\tests\aeswrap.c">
+      <Filter>include\Libgcrypt\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\tests\basic.c">
+      <Filter>include\Libgcrypt\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\tests\bench-slope.c">
+      <Filter>include\Libgcrypt\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\tests\benchmark.c">
+      <Filter>include\Libgcrypt\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\tests\curves.c">
+      <Filter>include\Libgcrypt\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\tests\dsa-rfc6979.c">
+      <Filter>include\Libgcrypt\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\tests\fips186-dsa.c">
+      <Filter>include\Libgcrypt\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\tests\fipsdrv.c">
+      <Filter>include\Libgcrypt\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\tests\gchash.c">
+      <Filter>include\Libgcrypt\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\tests\genhashdata.c">
+      <Filter>include\Libgcrypt\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\tests\hashtest.c">
+      <Filter>include\Libgcrypt\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\tests\hmac.c">
+      <Filter>include\Libgcrypt\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\tests\keygen.c">
+      <Filter>include\Libgcrypt\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\tests\keygrip.c">
+      <Filter>include\Libgcrypt\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\tests\mpitests.c">
+      <Filter>include\Libgcrypt\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\tests\pkbench.c">
+      <Filter>include\Libgcrypt\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\tests\pkcs1v2.c">
+      <Filter>include\Libgcrypt\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\tests\prime.c">
+      <Filter>include\Libgcrypt\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\tests\pubkey.c">
+      <Filter>include\Libgcrypt\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\tests\random.c">
+      <Filter>include\Libgcrypt\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\tests\rsacvt.c">
+      <Filter>include\Libgcrypt\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\tests\t-convert.c">
+      <Filter>include\Libgcrypt\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\tests\t-cv25519.c">
+      <Filter>include\Libgcrypt\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\tests\t-ed25519.c">
+      <Filter>include\Libgcrypt\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\tests\t-kdf.c">
+      <Filter>include\Libgcrypt\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\tests\t-lock.c">
+      <Filter>include\Libgcrypt\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\tests\t-mpi-bit.c">
+      <Filter>include\Libgcrypt\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\tests\t-mpi-point.c">
+      <Filter>include\Libgcrypt\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\tests\t-secmem.c">
+      <Filter>include\Libgcrypt\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\tests\t-sexp.c">
+      <Filter>include\Libgcrypt\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\tests\testapi.c">
+      <Filter>include\Libgcrypt\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Libgcrypt\tests\version.c">
+      <Filter>include\Libgcrypt\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\gm_hash.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\include\Libgcrypt\AUTHORS">
+      <Filter>include\Libgcrypt</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\COPYING">
+      <Filter>include\Libgcrypt</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\COPYING.LIB">
+      <Filter>include\Libgcrypt</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\ChangeLog">
+      <Filter>include\Libgcrypt</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\ChangeLog-2011">
+      <Filter>include\Libgcrypt</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\INSTALL">
+      <Filter>include\Libgcrypt</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\LICENSES">
+      <Filter>include\Libgcrypt</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\Makefile.am">
+      <Filter>include\Libgcrypt</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\Makefile.in">
+      <Filter>include\Libgcrypt</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\NEWS">
+      <Filter>include\Libgcrypt</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\README">
+      <Filter>include\Libgcrypt</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\README.GIT">
+      <Filter>include\Libgcrypt</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\THANKS">
+      <Filter>include\Libgcrypt</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\TODO">
+      <Filter>include\Libgcrypt</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\VERSION">
+      <Filter>include\Libgcrypt</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\acinclude.m4">
+      <Filter>include\Libgcrypt</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\aclocal.m4">
+      <Filter>include\Libgcrypt</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\autogen.sh">
+      <Filter>include\Libgcrypt</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\build-aux\ChangeLog-2011">
+      <Filter>include\Libgcrypt\build-aux</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\build-aux\compile">
+      <Filter>include\Libgcrypt\build-aux</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\build-aux\config.guess">
+      <Filter>include\Libgcrypt\build-aux</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\build-aux\config.rpath">
+      <Filter>include\Libgcrypt\build-aux</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\build-aux\config.sub">
+      <Filter>include\Libgcrypt\build-aux</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\build-aux\depcomp">
+      <Filter>include\Libgcrypt\build-aux</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\build-aux\git-log-fix">
+      <Filter>include\Libgcrypt\build-aux</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\build-aux\git-log-footer">
+      <Filter>include\Libgcrypt\build-aux</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\build-aux\install-sh">
+      <Filter>include\Libgcrypt\build-aux</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\build-aux\ltmain.sh">
+      <Filter>include\Libgcrypt\build-aux</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\build-aux\mdate-sh">
+      <Filter>include\Libgcrypt\build-aux</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\build-aux\missing">
+      <Filter>include\Libgcrypt\build-aux</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\build-aux\texinfo.tex">
+      <Filter>include\Libgcrypt\build-aux</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\cipher\ChangeLog-2011">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\cipher\Makefile.am">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\cipher\Makefile.in">
+      <Filter>include\Libgcrypt\cipher</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\compat\Makefile.am">
+      <Filter>include\Libgcrypt\compat</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\compat\Makefile.in">
+      <Filter>include\Libgcrypt\compat</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\config.h.in">
+      <Filter>include\Libgcrypt</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\configure">
+      <Filter>include\Libgcrypt</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\configure.ac">
+      <Filter>include\Libgcrypt</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\doc\ChangeLog-2011">
+      <Filter>include\Libgcrypt\doc</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\doc\DCO">
+      <Filter>include\Libgcrypt\doc</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\doc\HACKING">
+      <Filter>include\Libgcrypt\doc</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\doc\Makefile.am">
+      <Filter>include\Libgcrypt\doc</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\doc\Makefile.in">
+      <Filter>include\Libgcrypt\doc</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\doc\README.apichanges">
+      <Filter>include\Libgcrypt\doc</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\doc\fips-fsm.eps">
+      <Filter>include\Libgcrypt\doc</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\doc\fips-fsm.fig">
+      <Filter>include\Libgcrypt\doc</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\doc\fips-fsm.pdf">
+      <Filter>include\Libgcrypt\doc</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\doc\gcrypt.info">
+      <Filter>include\Libgcrypt\doc</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\doc\gcrypt.info-1">
+      <Filter>include\Libgcrypt\doc</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\doc\gcrypt.info-2">
+      <Filter>include\Libgcrypt\doc</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\doc\gcrypt.texi">
+      <Filter>include\Libgcrypt\doc</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\doc\gpl.texi">
+      <Filter>include\Libgcrypt\doc</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\doc\lgpl.texi">
+      <Filter>include\Libgcrypt\doc</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\doc\libgcrypt-modules.eps">
+      <Filter>include\Libgcrypt\doc</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\doc\libgcrypt-modules.fig">
+      <Filter>include\Libgcrypt\doc</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\doc\libgcrypt-modules.pdf">
+      <Filter>include\Libgcrypt\doc</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\doc\stamp-vti">
+      <Filter>include\Libgcrypt\doc</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\doc\version.texi">
+      <Filter>include\Libgcrypt\doc</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\m4\ChangeLog-2011">
+      <Filter>include\Libgcrypt\m4</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\m4\Makefile.am">
+      <Filter>include\Libgcrypt\m4</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\m4\Makefile.in">
+      <Filter>include\Libgcrypt\m4</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\m4\gpg-error.m4">
+      <Filter>include\Libgcrypt\m4</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\m4\libtool.m4">
+      <Filter>include\Libgcrypt\m4</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\m4\ltoptions.m4">
+      <Filter>include\Libgcrypt\m4</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\m4\ltsugar.m4">
+      <Filter>include\Libgcrypt\m4</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\m4\ltversion.m4">
+      <Filter>include\Libgcrypt\m4</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\m4\lt~obsolete.m4">
+      <Filter>include\Libgcrypt\m4</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\m4\noexecstack.m4">
+      <Filter>include\Libgcrypt\m4</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\m4\onceonly.m4">
+      <Filter>include\Libgcrypt\m4</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\m4\socklen.m4">
+      <Filter>include\Libgcrypt\m4</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\m4\sys_socket_h.m4">
+      <Filter>include\Libgcrypt\m4</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\mkinstalldirs">
+      <Filter>include\Libgcrypt</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\mpi\ChangeLog-2011">
+      <Filter>include\Libgcrypt\mpi</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\mpi\Makefile.am">
+      <Filter>include\Libgcrypt\mpi</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\mpi\Makefile.in">
+      <Filter>include\Libgcrypt\mpi</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\mpi\aarch64\distfiles">
+      <Filter>include\Libgcrypt\mpi\aarch64</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\mpi\alpha\README">
+      <Filter>include\Libgcrypt\mpi\alpha</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\mpi\alpha\distfiles">
+      <Filter>include\Libgcrypt\mpi\alpha</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\mpi\amd64\distfiles">
+      <Filter>include\Libgcrypt\mpi\amd64</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\mpi\arm\distfiles">
+      <Filter>include\Libgcrypt\mpi\arm</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\mpi\config.links">
+      <Filter>include\Libgcrypt\mpi</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\mpi\generic\distfiles">
+      <Filter>include\Libgcrypt\mpi\generic</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\mpi\hppa\README">
+      <Filter>include\Libgcrypt\mpi\hppa</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\mpi\hppa\distfiles">
+      <Filter>include\Libgcrypt\mpi\hppa</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\mpi\hppa1.1\distfiles">
+      <Filter>include\Libgcrypt\mpi\hppa1.1</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\mpi\i386\distfiles">
+      <Filter>include\Libgcrypt\mpi\i386</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\mpi\i586\README">
+      <Filter>include\Libgcrypt\mpi\i586</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\mpi\i586\distfiles">
+      <Filter>include\Libgcrypt\mpi\i586</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\mpi\m68k\distfiles">
+      <Filter>include\Libgcrypt\mpi\m68k</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\mpi\m68k\mc68020\distfiles">
+      <Filter>include\Libgcrypt\mpi\m68k\mc68020</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\mpi\mips3\README">
+      <Filter>include\Libgcrypt\mpi\mips3</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\mpi\mips3\distfiles">
+      <Filter>include\Libgcrypt\mpi\mips3</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\mpi\pa7100\distfiles">
+      <Filter>include\Libgcrypt\mpi\pa7100</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\mpi\pentium4\README">
+      <Filter>include\Libgcrypt\mpi\pentium4</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\mpi\pentium4\distfiles">
+      <Filter>include\Libgcrypt\mpi\pentium4</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\mpi\pentium4\mmx\distfiles">
+      <Filter>include\Libgcrypt\mpi\pentium4\mmx</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\mpi\pentium4\sse2\distfiles">
+      <Filter>include\Libgcrypt\mpi\pentium4\sse2</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\mpi\power\distfiles">
+      <Filter>include\Libgcrypt\mpi\power</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\mpi\powerpc32\distfiles">
+      <Filter>include\Libgcrypt\mpi\powerpc32</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\mpi\powerpc64\distfiles">
+      <Filter>include\Libgcrypt\mpi\powerpc64</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\mpi\sparc32\distfiles">
+      <Filter>include\Libgcrypt\mpi\sparc32</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\mpi\sparc32v8\distfiles">
+      <Filter>include\Libgcrypt\mpi\sparc32v8</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\mpi\supersparc\distfiles">
+      <Filter>include\Libgcrypt\mpi\supersparc</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\random\ChangeLog-2011">
+      <Filter>include\Libgcrypt\random</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\random\Makefile.am">
+      <Filter>include\Libgcrypt\random</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\random\Makefile.in">
+      <Filter>include\Libgcrypt\random</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\src\ChangeLog-2011">
+      <Filter>include\Libgcrypt\src</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\src\Makefile.am">
+      <Filter>include\Libgcrypt\src</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\src\Makefile.in">
+      <Filter>include\Libgcrypt\src</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\src\gcrypt.h.in">
+      <Filter>include\Libgcrypt\src</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\src\libgcrypt-config.in">
+      <Filter>include\Libgcrypt\src</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\src\libgcrypt.def">
+      <Filter>include\Libgcrypt\src</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\src\libgcrypt.m4">
+      <Filter>include\Libgcrypt\src</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\src\libgcrypt.vers">
+      <Filter>include\Libgcrypt\src</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\src\versioninfo.rc.in">
+      <Filter>include\Libgcrypt\src</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\tests\ChangeLog-2011">
+      <Filter>include\Libgcrypt\tests</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\tests\Makefile.am">
+      <Filter>include\Libgcrypt\tests</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\tests\Makefile.in">
+      <Filter>include\Libgcrypt\tests</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\tests\README">
+      <Filter>include\Libgcrypt\tests</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\tests\basic-disable-all-hwf.in">
+      <Filter>include\Libgcrypt\tests</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\tests\basic_all_hwfeature_combinations.sh">
+      <Filter>include\Libgcrypt\tests</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\tests\cavs_driver.pl">
+      <Filter>include\Libgcrypt\tests</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\tests\cavs_tests.sh">
+      <Filter>include\Libgcrypt\tests</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\tests\hashtest-256g.in">
+      <Filter>include\Libgcrypt\tests</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\tests\rsa-16k.key">
+      <Filter>include\Libgcrypt\tests</Filter>
+    </None>
+    <None Include="..\include\Libgcrypt\tests\t-ed25519.inp">
+      <Filter>include\Libgcrypt\tests</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\include\Libgcrypt\autogen.rc">
+      <Filter>include\Libgcrypt</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\include\Libgcrypt\doc\fips-fsm.png">
+      <Filter>include\Libgcrypt\doc</Filter>
+    </Image>
+    <Image Include="..\include\Libgcrypt\doc\libgcrypt-modules.png">
+      <Filter>include\Libgcrypt\doc</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
