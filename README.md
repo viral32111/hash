@@ -4,7 +4,7 @@ This is a module for Garry's Mod that provides a handful of common hashing and c
 
 Even though this module is intended to be used serverside, downloads for both client and server environments are available.
 
-Native string hash functions for MD5, SHA1 and SHA256 were added to the game in the [July 2021 Patch](https://store.steampowered.com/news/app/4000/view/2961661843692383385) (https://github.com/Facepunch/garrysmod-requests/issues/1077). The equivalent functions provided by this module are still available to maintain backwards compatibility, but discouraged for new development.
+Native string hash functions for MD5, SHA1 and SHA256 were added to the game in the [July 2021 Patch](https://store.steampowered.com/news/app/4000/view/2961661843692383385) ([#1077](https://github.com/Facepunch/garrysmod-requests/issues/1077)). The equivalent functions provided by this module are still available to maintain backwards compatibility, but discouraged for new development.
 
 ## Functions
 
