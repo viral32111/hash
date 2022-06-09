@@ -1,0 +1,10 @@
+# The header files for the Garry's Mod module base
+# https://github.com/Facepunch/gmod-module-base/tree/development/include
+gmod-module-base/
+
+# The build directory
+out/
+
+# Visual Studio files
+.vs/
+CMakeSettings.json
