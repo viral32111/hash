@@ -1,5 +1,0 @@
-^D:\PROJECTS\GM_HASH\CRYPTOPP-CRYPTOPP_8_2_0\ADHOC.CPP.PROTO
-if not exist adhoc.cpp copy "D:\Projects\gm_hash\cryptopp-CRYPTOPP_8_2_0\adhoc.cpp.proto" adhoc.cpp
-        echo: >> adhoc.cpp.copied
-^D:\PROJECTS\GM_HASH\CRYPTOPP-CRYPTOPP_8_2_0\RDRAND.ASM
-ml.exe /c /nologo /D_M_X86 /W3 /Cx /Zi /safeseh /Fo"Win32\cryptlib\Release\rdrand-x86.obj" "D:\Projects\gm_hash\cryptopp-CRYPTOPP_8_2_0\rdrand.asm"
