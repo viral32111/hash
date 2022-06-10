@@ -4,13 +4,19 @@ This is a module for Garry's Mod that provides a handful of common hashing and c
 
 Even though this module is intended to be used serverside, downloads for both client and server environments are available.
 
-Native string hash functions for MD5, SHA1 and SHA256 were added to the game in the [July 2021 Patch](https://store.steampowered.com/news/app/4000/view/2961661843692383385) ([#1077](https://github.com/Facepunch/garrysmod-requests/issues/1077)). The equivalent functions provided by this module are still available to maintain backwards compatibility, but discouraged for new development.
+**NOTE**: There are now native string hash functions for [MD5](https://wiki.facepunch.com/gmod/util.MD5), [SHA1](https://wiki.facepunch.com/gmod/util.SHA1) and [SHA256](https://wiki.facepunch.com/gmod/util.SHA256) as of the [July 2021 Patch](https://store.steampowered.com/news/app/4000/view/2961661843692383385) ([#1077](https://github.com/Facepunch/garrysmod-requests/issues/1077)).
 
-## Functions
+## Documentation
+
+To use this module in an addon, call [`require( "hash" )`](https://wiki.facepunch.com/gmod/Global.require) at the beginning of the Lua file(s).
 
 The functions this module exposes to the Lua environment are documented below.
 
-* TO-DO
+* TO-DO: `hash.md5( string )`
+* TO-DO: `hash.sha1( string )`
+* TO-DO: `hash.sha2( string text, number bits = 256 )` (`bits` can be 224, 256, 384, or 512)
+* TO-DO: `hash.sha3( string text, number bits = 256 )` (`bits` can be 224, 256, 384, or 512)
+* TO-DO: `hash.blake2( string, boolean x64 = false )` (if `x64` is true then BLAKE2b is used, otherwise BLAKE2s)
 
 ## Building
 
